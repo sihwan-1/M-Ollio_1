@@ -48,3 +48,18 @@ function M_menu() {
 }
 
 M_menu();
+
+function Side_menu() {
+  $('.m-menu').click(function () {
+    $('.side-menu').addClass('active');
+  });
+
+  $('.close-btn').click(function () {
+    $('.side-menu').removeClass('active');
+  });
+}
+Side_menu();
+
+$('.close-btn').click(function () {
+  console.log("ddd");
+});

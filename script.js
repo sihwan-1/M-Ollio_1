@@ -75,6 +75,7 @@ function Search_m() {
     $('.search-m').addClass('active');
     $('header').addClass('on');
     $('.side-menu').removeClass('active');
+    $('body').removeClass('no-scroll');
   });
 
 }
